@@ -1,0 +1,32 @@
+.page-container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+.circular-menu {
+    height: 170px;
+    position: relative;
+    width: 170px;
+  }
+  
+  .menu-button,
+  .menu-item {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .menu-button {
+    background-color: black;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .menu-item {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+  }
