@@ -8,20 +8,20 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    // <ChakraProvider>
-    //   <Grid templateAreas={`"header" "main" "footer"`}>
-    //     <GridItem area={"header"}>
-    //       <Header />
-    //     </GridItem>
-    //     <GridItem area={"main"}>
-    //       <Home />
-    //     </GridItem>
-    //     <GridItem area={"footer"}>
-    //       <Footer />
-    //     </GridItem>
-    //   </Grid>
+    <ChakraProvider>
+      <Grid templateAreas={`"header" "main" "footer"`}>
+        <GridItem area={"header"}>
+          <Header />
+        </GridItem>
+        <GridItem area={"main"}>
+          <Home />
+        </GridItem>
+        <GridItem area={"footer"}>
+          <Footer />
+        </GridItem>
+      </Grid>
       <Club/>
-    // </ChakraProvider>
+    </ChakraProvider>
   );
 }
 
