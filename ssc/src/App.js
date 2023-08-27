@@ -1,9 +1,9 @@
-
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
 import { Grid, GridItem, ChakraProvider } from "@chakra-ui/react";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Club from "./components/Club";
 import Footer from "./components/Footer";
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
           <Footer />
         </GridItem>
       </Grid>
+      <Club/>
     </ChakraProvider>
   );
 }
